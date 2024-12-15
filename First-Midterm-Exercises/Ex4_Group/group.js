@@ -16,7 +16,7 @@ function group(arr, len) {
 }
 
 
-console.log(group([1, 2, 3, 4, 5, 6], 4) ) // [ [ 1, 3 ], [ 2, 4 ] ]
+console.log(group([1, 2, 3, 4, 5, 6], 4) ) // [ [ 1, 3, 5 ], [ 2, 4, 6 ] ]
 
 console.log(group([1, 2, 3, 4, 5, 6, 7], 4) ) // [ [ 1, 3, 5, 7 ], [ 2, 4, 6 ] ]
 
